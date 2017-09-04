@@ -1,0 +1,380 @@
+body{
+	background:#d5c9bd;
+}
+.logo{
+	width:295px;
+	height:63px;
+	background-image:url("../img/header.png");
+	margin:12px auto 15px;
+}
+.nav-box{
+	width:100%;
+	height:50px;
+	background:#462327;
+	/*text-align:center;*/
+	/*line-height:50px;*/
+	overflow: hidden;
+}
+.nav-box ul{
+	width:787px;
+	height:16px;
+	margin:14px auto;
+	display:flex;
+	justify-content: space-between;
+}
+.nav-box ul li{
+	width:auto;
+	height:16px;
+	position:relative;
+}
+.nav-box ul li a{
+	color:#ffa265;
+	font-family:"平方";
+}
+.dot{
+	display:block;
+	width:5px;
+	height:5px;
+	border-radius: 50%;
+	background:#d5c9bd;
+	position:absolute;
+	top:9px;
+	left:-14px;
+}
+.banner{
+	width:100%;
+	height:492px;
+	background:red;
+}
+.banner ul{
+	width:100%;
+	height:100%;
+	background:red;
+	position:relative;
+}
+.banner ul li{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.banner ul li a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+.banner-dot{
+	width:95px;
+	height:10px;
+	/*background:red;*/
+	position:absolute;
+	bottom:20px;
+	left:0;
+	right:0;
+	margin:auto;
+	display:flex;
+	justify-content: space-between;
+}
+.banner-dot div{
+	display:block;
+	width:10px;
+	height:10px;
+	border-radius: 50%;
+	background:#f7f7f7;
+}
+.leftbtn,.rightbtn{
+	width:33px;
+	height:63px;
+	/*background:yellow;*/
+	font-size: 60px;
+	font-weight: lighter;
+	position:absolute;
+	top:0;
+	bottom:0;
+	
+	margin:auto;
+	color:#d5c9bd;
+}
+.leftbtn{
+	left:200px;
+}
+.rightbtn{
+	right:200px;
+}
+/*祥瑞铁斧，时代传承*/
+.tiefu{
+	width:100%;
+	position:relative;
+}
+.tiefu-words{
+	width:258px;
+	height:415px;
+	/*background:red;*/
+	position:absolute;
+	top:0;
+	bottom:0;
+	margin:auto;
+	right:388px;
+	z-index:10;
+	display:flex;
+	justify-content: space-between;
+}
+.tiefu-words p{
+	width:18px;
+	font-size:18px;
+	height:auto;
+	float:left;
+	color:#666;
+	writing-mode:tb-rl;
+
+}
+.tiefu-chuancheng{
+	width:110px;
+	height:328px;
+	background-image:url("../img/tiehu-words.png");
+	position:absolute;
+	top:0;
+	bottom:0;
+	margin:auto;
+	right:192px;
+}
+.empty{
+	width:100%;
+	height:146px;
+	background:#d5c9bd;
+}
+.biaoti{	
+	width:382px;
+	height:140px;
+	background-image: url("../img/biaoti.png");
+	background-repeat:no-repeat;
+	margin:0 auto;
+}
+.product{
+	width:1190px;
+	height:540px;
+	background:#b2a79d;
+	border-radius:10px;
+	border:5px solid #b2a79d;
+	box-shadow: 0 0 45px 10px #b2a79d;
+	margin:auto;
+}
+.product-box{
+	width:1200px;
+	height:550px;
+	background:#fff;
+	border-radius:10px;
+	position:relative;
+}
+.product-box-1{
+	width:406px;
+	height:475px;
+	background-image: url("../img/tirhu3.png");
+	position:absolute;
+	top:42px;
+	left:42px;
+}
+.yangsheng{
+	width:418px;
+	height:230px;
+	/*background:red;*/
+	position:absolute;
+	top:0px;
+	bottom:0;
+	margin:auto;
+	right:182px;
+	display:flex;
+	justify-content: space-between;
+}
+.yangsheng img{
+	display:block;
+	width:49px;
+	height:230px;
+}
+.yangsheng1{
+	width:261px;
+	height:245px;
+	position:absolute;
+	right:0;
+	bottom:0;
+	background-image:url("../img/yangsheng2.png");
+}
+.pro-words{
+	width:589px;
+	height:53px;
+	/*background:yellow;*/
+	margin:38px auto 0;
+}
+.pro-words-kuai{
+	width:6px;
+	height:20px;
+	background:#f34947;
+	float:left;
+}
+.pro-words-words{
+	width:580px;
+	height:100%;
+	line-height:31px;
+	float:right;
+	text-align:center;
+	text-decoration: underline;
+	margin-top:-6px;
+	color:#462327;
+}
+.empty2{
+	width:100%;
+	height:200px;
+	background:#D5C9BD;
+}
+.empty3{
+	width:100%;
+	height:160px;
+	background:#D5C9BD;
+}
+.famous{
+	width:999px;
+	height:379px;
+	background:yellow;
+	margin:24px auto 0;
+}
+.famous ul{
+	display:flex;
+	justify-content: space-between;
+}
+.famous ul li{
+	width:995px;
+	height:375px;
+	background:#9C9389;
+	border:2px solid #9C9389;
+	box-shadow: 0 0 10px 2px #9C9389;
+}
+.famous ul li a{
+	display:block;
+	width:325px;
+	height:377px;
+	border:1px solid #fff;
+	background:#fff;
+	/*overflow: hidden;*/
+	text-align: center;
+	position:relative;
+}
+.famous-words{
+	width:104px;
+	height:27px;
+	/*background:red;*/
+	margin:40px auto 20px;
+	
+}
+.famous ul li a span{
+	display:block;
+}
+.famous-pic {
+	width:294px;
+	height:310px;
+	/*background:red;*/
+	position:absolute;
+	bottom:-82px;
+	left:0;
+	right:0;
+	margin:auto;
+}
+.empty4{
+	width:100%;
+	height:240px;
+	background:#D5C9BD;
+}
+.yejiao{
+	width:325px;
+	height:88px;
+	margin:0 auto;
+}
+footer{
+	width:100%;
+	height:320px;
+	/*background:red;*/
+	background-image:url("../img/footer.png");
+	background-position: -284px 0;
+	position:relative;
+	overflow: hidden;
+}
+.arrow{
+	width:68px;
+	height:68px;
+	background:rgba(255,255,255,0.6);
+	border-radius: 50%;
+	position:absolute;
+	top:8px;
+	left:0;
+	right:0;
+	margin:auto;
+}
+.arrow2{
+	width:56px;
+	height:56px;
+	background:#fff;
+	border-radius: 50%;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+}
+.real-arrow{
+	width:30px;
+	height:18px;
+	background:#fff;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+}
+.contanct{
+	width:327px;
+	height:57px;
+	/*background:orange;*/
+	position:absolute;
+	left:0;
+	right:0;
+	top:105px;
+	margin:auto;
+	display:flex;
+	justify-content: space-between;
+}
+.contanct div{
+	float:left;
+	width:83px;
+	height:auto;
+	overflow: hidden;
+	font-size:14px;
+	color:#fff;
+	text-align: center;
+	
+}
+.contanct div .weixin{
+	display:block;
+	width:33px;
+	height:33px;
+	background:red;
+	border-radius: 50%;
+	margin: 0 auto 8px;
+}
+.address{
+	width:100%;
+	height:auto;
+	text-align: center;
+	color:#fff;
+	margin-top:205px;
+	font-weight: lighter;
+}
+.address1{
+	width:100%;
+	height:auto;
+	text-align: center;
+	color:#fff;
+	margin-top:10px;
+	font-weight: lighter;
+}
